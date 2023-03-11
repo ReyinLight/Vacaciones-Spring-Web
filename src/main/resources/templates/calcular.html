@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Ingresa la fecha aaa-mm-dd
+<form th:action="mostrarVacaciones" method="post">
+
+    <label>fecha</label>
+    <input type="text" class="form-control" placeholder="Ingresa la fecha" name="fecha" required="required"><br>
+
+    <input type="submit" value="Calcular">
+
+</form>
+
+
+
+</body>
+</html>

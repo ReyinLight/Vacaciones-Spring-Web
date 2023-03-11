@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+Nombre:
+<label th:text="${empleado.nombre}"></label><br><br>
+Fecha de ingreso:
+
+<label th:text="${empleado.fechaIngreso}"></label><br><br>
+
+Vacaciones tomadas
+<label th:text="${empleado.vacacionesTomadas}"></label><br><br>
+
+Vacaciones restantes
+<label th:text="${empleado.calcularVacacionesProporcionalesNUEVAley()}"></label><br><br>
+
+</body>
+</html>
